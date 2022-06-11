@@ -1,0 +1,72 @@
+.mark{
+
+    width: 800px;
+    height: 900px;
+    background-color: rgb(172, 185, 185);
+}
+.top{
+    width: 100%;
+    height: 200px;
+    background-color:  beige;;
+}
+.namo{
+
+    border-spacing:4px;
+    /* border: 1px solid; */
+}
+.name td{
+
+         padding:10px;
+}
+.name{
+    width: 100%;
+    background-color:rgb(42, 172, 128);
+}
+.namo ,th,td{
+
+border-collapse:collapse ;
+}
+
+ /* .crs ,th, td{
+    border: 1px solid black;
+} */
+
+
+
+
+
+.subs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.grade {
+    display: flex;
+    
+}
+.grade1, .grade2, .grade3, .grade4 {
+    margin: 20px auto;
+}
+.grade2, .grade4 {
+    border: 3px solid black;
+    padding: 5px;
+}
+.header {
+    /* background: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.inputs {
+    text-align: center;
+    line-height: 30px;
+}
+input{
+    height: 20px;
+    
+}
+.subs{
+    background-color: rgb(26, 206, 131);
+}
